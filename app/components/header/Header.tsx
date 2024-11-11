@@ -58,13 +58,13 @@ const Header = () => {
           variants={containerVariant} // Using container variant for stagger
         >
           <motion.h2
-            className="font-abhaya text-3xl text-center lg:text-left"
+            className="font-oswald text-3xl text-center lg:text-left"
             variants={textVariant} // Individual text variant
           >
             We make your brand speak loudly <br /> in a world full of noise
           </motion.h2>
           <motion.p
-            className="font-abhaya text-lg lg:text-xl text-center lg:text-left"
+            className="font-oswald text-lg lg:text-xl text-center lg:text-left"
             variants={textVariant}
           >
             The company's mission is to transform creative ideas into successful
@@ -78,7 +78,7 @@ const Header = () => {
             whileInView="visible"
             variants={buttonVariant}
           >
-            <button className="font-kumar bg-white shadow-btnShadow rounded-btnBorder py-3 px-12 lg:py-5 lg:px-24 cursor-pointer">
+            <button className="font-oswald text-2xl bg-white shadow-btnShadow rounded-btnBorder py-3 px-12 lg:py-5 lg:px-24 cursor-pointer">
               Service
             </button>
           </motion.div>

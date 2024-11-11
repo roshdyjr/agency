@@ -11,7 +11,8 @@ export default {
       colors: {},
       fontFamily: {
         kumar: ["Kumar", "sans-serif"],
-        abhaya: ['"Abhaya Libre"', "sans-serif"],
+        abhaya: ["Abhaya Libre", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
       },
       boxShadow: {
         btnShadow: "0px 0px 30px 10px rgba(0, 0, 0, 0.3)",

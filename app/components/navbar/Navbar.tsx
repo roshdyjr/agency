@@ -72,7 +72,7 @@ const Navbar = () => {
           variants={logoVariant}
         >
           <Image src="/logo.png" alt="logo" width={100} height={35} className="w-auto h-auto" />
-          <Link className="font-abhaya text-lg md:text-2xl text-black text-nowrap" href="/">
+          <Link className="font-oswald text-lg md:text-2xl text-black text-nowrap" href="/">
             Market<span className="text-white">k</span>ing Agenc
             <span className="text-white">y</span>
           </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
               <motion.li key={href} variants={navLinkItem}>
                 <Link
                   href={href}
-                  className={`nav-link relative transition font-abhaya text-2xl py-1 ${
+                  className={`nav-link relative transition font-oswald text-2xl py-1 ${
                     pathname === href ? "active-link font-semibold" : ""
                   }`}
                 >
@@ -138,7 +138,7 @@ const Navbar = () => {
         variants={mobileMenuVariant}
       >
         <motion.ul
-          className="flex flex-col items-center py-6 space-y-4 text-xl font-abhaya text-black"
+          className="flex flex-col items-center py-6 space-y-4 text-xl font-oswald text-black"
           initial="hidden"
           animate={isOpen ? "visible" : "hidden"}
           variants={mobileNavLinksVariant}
