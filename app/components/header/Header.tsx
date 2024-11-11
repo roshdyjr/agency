@@ -47,9 +47,7 @@ const Header = () => {
   };
 
   return (
-    <main
-      className="w-full min-h-screen bg-gradient-to-b from-[#d99e2b]/[.8] to-[#f9d423]/[.2] text-black overflow-hidden"
-    >
+    <main className="w-full min-h-screen bg-gradient-to-b from-[#d99e2b]/[.8] to-[#f9d423]/[.2] text-black overflow-hidden">
       <Navbar />
       <div className="flex flex-col lg:flex-row justify-between items-center w-full h-full mt-16">
         {/* LEFT SIDE SECTION WITH TEXTS AND BUTTON */}
@@ -87,7 +85,7 @@ const Header = () => {
         </motion.div>
 
         {/* RIGHT SIDE SECTION WITH IMAGES */}
-        <div className="flex relative gap-14 md:gap-20 flex-col-reverse md:flex-row justify-center items-center lg:pl-40 w-full">
+        <div className="flex relative gap-14 md:gap-20 flex-col-reverse md:flex-row justify-center items-center lg:pl-40 w-full mb-20 mlg:mb-0">
           <motion.div
             className="bg-header1 w-[250px] lg:w-[300px] h-[350px] lg:h-[480px] shadow-headerImg rounded-imgBorder relative"
             initial="hidden"
