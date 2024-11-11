@@ -73,7 +73,7 @@ const Navbar = () => {
         >
           <Image src="/logo.png" alt="logo" width={100} height={35} className="w-auto h-auto" />
           <Link className="font-oswald text-lg md:text-2xl text-black text-nowrap" href="/">
-            Market<span className="text-white">k</span>ing Agenc
+            Mar<span className="text-white">k</span>eting Agenc
             <span className="text-white">y</span>
           </Link>
         </motion.div>
