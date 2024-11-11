@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONT DECLARATIONS */
+
+@font-face {
+  font-family: "Kumar";
+  src: url("/fonts/KumarOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url("/fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kumar";
+  src: url("/fonts/KumarOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Navbar link styles */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.nav-link::before,
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+  width: 0; /* Start with 0 width */
+}
+
+.nav-link::before {
+  top: -4px; /* Upper line */
+}
+
+.nav-link::after {
+  bottom: -4px; /* Lower line */
+}
+
+/* Hover effect: expand lines from width 0 to 100% */
+.nav-link:hover::before,
+.nav-link:hover::after {
+  width: 100%; /* Expand the lines */
+}
+
+/* Active link: Always show the lines */
+.nav-link.active-link::before,
+.nav-link.active-link::after {
+  width: 100%; /* Full width on active link */
+}
+
+.nav-link.active-link::before {
+  top: -4px;
+}
+
+.nav-link.active-link::after {
+  bottom: -4px;
+}
