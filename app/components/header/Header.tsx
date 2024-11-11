@@ -47,7 +47,9 @@ const Header = () => {
   };
 
   return (
-    <main className="w-full min-h-[80vh] bg-gradient-to-b from-[#fbbd04]/[.6] to-[#fbbd04]/[.0] text-black overflow-hidden">
+    <main
+      className="w-full min-h-[80vh] bg-gradient-to-b from-[#d99e2b]/[.8] to-[#f9d423]/[.2] text-black overflow-hidden"
+    >
       <Navbar />
       <div className="flex flex-col lg:flex-row justify-between items-center w-full h-full mt-16">
         {/* LEFT SIDE SECTION WITH TEXTS AND BUTTON */}
